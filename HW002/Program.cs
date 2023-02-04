@@ -17,7 +17,7 @@ for (int i = 0; i < n*2; i++)
         {
         Console.WriteLine("введите координату y"+count+": ");
         int temp = int.Parse(Console.ReadLine()??"0");
-        coor[i] = temp; 
+        coor[i] = temp;
         count++;
         }
     }
